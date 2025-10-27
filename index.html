@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'Evy Somda - Développeur Web & IA passionné par la tech et l'innovation africaine.">
+    <title>Evy Steven Somda | Développeur Web & IA Junior</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Bungee&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Particles.js pour le background animé -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background animé (particules + dégradés) -->
+    <div id="particles-js"></div>
+    <div class="gradient-bg"></div>
+
+    <!-- Header avec effet de profondeur -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__img-wrapper">
+                <img src="img/profile-pic (5).png" alt="Evy Somda, Développeur Web & IA" class="header__img" loading="lazy">
+            </div>
+            <h1 class="header__title">Evy Steven Somda</h1>
+            <p class="header__subtitle" style="color:rgb(99, 96, 96)">Développeur Web & IA Junior | Passionné par l'innovation africaine</p>
+            <button class="theme-toggle" aria-label="Basculer le thème">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <button class="nav__toggle" aria-label="Ouvrir le menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav__list">
+                <li><a href="#biographie" class="nav__link">Biographie</a></li>
+                <li><a href="#competences" class="nav__link">Compétences</a></li>
+                <li><a href="#projets" class="nav__link">Projets</a></li>
+                <li><a href="#blog" class="nav__link">Blog</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <main>
+        <!-- Biographie -->
+        <section id="biographie" class="section">
+            <div class="container">
+                <h2 class="section__title">À propos de moi</h2>
+                <div class="biographie__content">
+                    <p>
+                        Je m'appelle <strong>SOMDA MWEMWIN Evy Steven</strong>, originaire du <strong>Burkina Faso</strong>, le Pays des Hommes Intègres. Étudiant en <strong>Sciences Informatiques Appliquées</strong>, je poursuis une passion profonde
+                        pour la <strong>technologie</strong>, la <strong>créativité</strong> et l'<strong>innovation africaine</strong>.
+                    </p>
+                    <p>
+                        Pour moi, chaque ligne de code est un pas vers un futur plus humain et accessible. 🌍 J’explore le développement web et l’intelligence artificielle comme des outils d’émancipation, et je rêve d’une Afrique qui crée ses propres solutions technologiques.
+                    </p>
+
+                    <div class="biographie__cta">
+                        <a href="CV for ODC.pdf" class="button">
+                            <i class="fas fa-download"></i> Télécharger mon CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section id="competences" class="section">
+            <div class="container">
+                <h2 class="section__title">Mes Compétences</h2>
+                <div class="competences__grid">
+                    <div class="competence__card">
+                        <i class="fas fa-code competence__icon"></i>
+                        <h3 class="competence__title">💻 Programmation</h3>
+                        <ul class="competence__list">
+                            <li>Python — <span class="stars">⭐⭐⭐☆☆</span></li>
+                            <li>HTML / CSS — <span class="stars">⭐⭐⭐☆☆</span></li>
+                            <li>JavaScript — <span class="stars">⭐☆☆☆☆</span></li>
+                        </ul>
+                    </div>
+                    <div class="competence__card">
+                        <i class="fas fa-robot competence__icon"></i>
+                        <h3 class="competence__title">🧠 Intelligence Artificielle</h3>
+                        <ul class="competence__list">
+                            <li>Machine Learning — <span class="stars">⭐⭐☆☆☆</span></li>
+                            <li>Chatbots / NLP — <span class="stars">⭐⭐☆☆☆</span></li>
+                            <li>Automatisation — <span class="stars">⭐⭐☆☆☆</span></li>
+                        </ul>
+                    </div>
+                    <div class="competence__card">
+                        <i class="fas fa-paint-brush competence__icon"></i>
+                        <h3 class="competence__title">🎨 Créativité & Design</h3>
+                        <ul class="competence__list">
+                            <li>Design graphique — <span class="stars">⭐⭐⭐☆☆</span></li>
+                            <li>UI / UX — <span class="stars">⭐⭐⭐☆☆</span></li>
+                        </ul>
+                    </div>
+                    <div class="competence__card">
+                        <i class="fas fa-users competence__icon"></i>
+                        <h3 class="competence__title">🌍 Soft Skills</h3>
+                        <ul class="competence__list">
+                            <li>Leadership — <span class="stars">⭐⭐⭐⭐☆</span></li>
+                            <li>Communication — <span class="stars">⭐⭐⭐⭐☆</span></li>
+                            <li>Adaptabilité — <span class="stars">⭐⭐⭐⭐☆</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets (avec EnergyTrack) -->
+        <section id="projets" class="section">
+            <div class="container">
+                <h2 class="section__title">Mes Projets</h2>
+                <div class="projets__grid">
+                    <!-- Projet 1 : Pâtisserie en ligne -->
+                    <div class="projet__card">
+                        <div class="projet__img-wrapper">
+                            <img src="img/Capture d’écran 2025-10-03 192412.png" alt="Site de pâtisserie en ligne" class="projet__img" loading="lazy">
+                        </div>
+                        <div class="projet__content">
+                            <h3 class="projet__title">Pâtisserie en ligne 🍰</h3>
+                            <p class="projet__desc">
+                                Un site e-commerce moderne pour découvrir et commander des pâtisseries artisanales.
+                            </p>
+                            <div class="projet__tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="projet__links">
+                                <a href="https://evysteven.github.io/Patisserie/" target="_blank" class="button-small">
+                                    <i class="fas fa-external-link-alt"></i> Voir le site
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 : Album photo -->
+                    <div class="projet__card">
+                        <div class="projet__img-wrapper">
+                            <img src="img/Capture d’écran 2025-10-03 191856.png" alt="Galerie photo en ligne" class="projet__img" loading="lazy">
+                        </div>
+                        <div class="projet__content">
+                            <h3 class="projet__title">Album photo en ligne 📸</h3>
+                            <p class="projet__desc">
+                                Une galerie fluide et responsive pour présenter mes clichés personnels et souvenirs visuels.
+                            </p>
+                            <div class="projet__tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                            <div class="projet__links">
+                                <a href="https://evysteven.github.io/Ma_Galerie/" target="_blank" class="button-small">
+                                    <i class="fas fa-external-link-alt"></i> Voir le site
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3 : EnergyTrack -->
+                    <div class="projet__card">
+                        <div class="projet__img-wrapper">
+                            <img src="img/Capture d’écran 2025-10-16 163559.png" alt="EnergyTrack - Gestion d'énergie" class="projet__img" loading="lazy">
+                        </div>
+                        <div class="projet__content">
+                            <h3 class="projet__title">EnergyTrack ⚡</h3>
+                            <p class="projet__desc">
+                                Plateforme de gestion intelligente de l'énergie électrique, conçue pour optimiser la consommation et réduire les coûts.
+                            </p>
+                            <div class="projet__tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">API</span>
+                            </div>
+                            <div class="projet__links">
+                                <a href="#" target="_blank" class="button-small">
+                                    <i class="fas fa-external-link-alt"></i> Voir le site
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog" class="section">
+            <div class="container">
+                <h2 class="section__title">📝 Mon Blog</h2>
+                <div class="blog__grid">
+                    <!-- Article 1 : IA et Afrique -->
+                    <article class="blog__card">
+                        <div class="blog__header">
+                            <h3 class="blog__title">L'IA au service de l'Afrique : opportunités et défis</h3>
+                            <span class="blog__date">15 Octobre 2025</span>
+                        </div>
+                        <p class="blog__excerpt">
+                            L'intelligence artificielle peut transformer l'Afrique, mais comment éviter les pièges du colonialisme numérique ? Je partage mes réflexions sur l'IA éthique et les solutions locales.
+                        </p>
+                        <div class="blog__tags">
+                            <span class="tag">#IA</span>
+                            <span class="tag">#Afrique</span>
+                            <span class="tag">#Innovation</span>
+                        </div>
+                        <a href="#" class="blog__link">
+                    Lire l'article <i class="fas fa-arrow-right"></i>
+                </a>
+                    </article>
+
+                    <!-- Article 2 : Développement Web -->
+                    <article class="blog__card">
+                        <div class="blog__header">
+                            <h3 class="blog__title">Pourquoi j'ai choisi React pour mes projets web</h3>
+                            <span class="blog__date">5 Octobre 2025</span>
+                        </div>
+                        <p class="blog__excerpt">
+                            Après avoir testé plusieurs frameworks, je explique pourquoi React est devenu mon outil préféré pour créer des interfaces dynamiques et performantes.
+                        </p>
+                        <div class="blog__tags">
+                            <span class="tag">#React</span>
+                            <span class="tag">#DéveloppementWeb</span>
+                            <span class="tag">#JavaScript</span>
+                        </div>
+                        <a href="#" class="blog__link">
+                    Lire l'article <i class="fas fa-arrow-right"></i>
+                </a>
+                    </article>
+
+                    <!-- Article 3 : Projet Malika -->
+                    <article class="blog__card">
+                        <div class="blog__header">
+                            <h3 class="blog__title">Malika : une IA inspirée par la culture africaine</h3>
+                            <span class="blog__date">28 Septembre 2025</span>
+                        </div>
+                        <p class="blog__excerpt">
+                            Découvrez comment j'ai conçu Malika, une intelligence artificielle qui intègre des valeurs africaines pour rendre la technologie plus inclusive.
+                        </p>
+                        <div class="blog__tags">
+                            <span class="tag">#IA</span>
+                            <span class="tag">#Culture</span>
+                            <span class="tag">#Inclusion</span>
+                        </div>
+                        <a href="#" class="blog__link">
+                    Lire l'article <i class="fas fa-arrow-right"></i>
+                </a>
+                    </article>
+                </div>
+
+                <!-- Lien vers tous les articles (optionnel) -->
+                <div class="blog__footer">
+                    <a href="https://somdaevysteven.blogspot.com/" class="button">
+                Voir tous les articles <i class="fas fa-book"></i>
+            </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section__title">Contactez-moi</h2>
+                <div class="contact__content">
+                    <form id="contact-form" class="contact__form" action="https://formsubmit.co/somdaevysteven@gmail.com" method="POST">
+                        <div class="form__group">
+                            <label for="nom" class="form__label">Nom</label>
+                            <input type="text" id="nom" name="nom" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="button">
+                            <i class="fas fa-paper-plane"></i> Envoyer
+                        </button>
+                        <p id="form-status" class="form__status"></p>
+                    </form>
+                    <div class="contact__info">
+                        <h3>Ou contactez-moi directement :</h3>
+                        <ul class="contact__list">
+                            <li>
+                                <a href="mailto:somdaevysteven@gmail.com" class="contact__link">
+                                    <i class="fas fa-envelope"></i> somdaevysteven@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/22653025957" class="contact__link" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> +226 53 02 59 57
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/evysteven" class="contact__link" target="_blank" aria-label="GitHub">
+                                    <i class="fab fa-github"></i> Mon lien github
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/evy-steven-somda-961721290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=androi_app" class="contact__link" target="blank">
+                                    <i classe="fab fa-linkedin"></i> Mon lien linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Evy Steven Somda. Tous droits réservés.</p>
+            <div class="social-links">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
